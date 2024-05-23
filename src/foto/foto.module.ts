@@ -3,7 +3,7 @@ import { FotoService } from './foto.service';
 import { FotoController } from './foto.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { FotoEntity } from './foto.entity';
-import { AlbumEntity } from 'src/album/album.entity';
+import { AlbumEntity } from '../album/album.entity';
 
 @Module({
   imports: [TypeOrmModule.forFeature([FotoEntity, AlbumEntity])],
