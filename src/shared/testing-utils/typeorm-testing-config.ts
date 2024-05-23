@@ -17,4 +17,5 @@ export const TypeOrmTestingConfig = () => [
  }),
  TypeOrmModule.forFeature([AlbumEntity, FotoEntity, RedsocialEntity, UsuarioEntity]),
 ];
+
 /* archivo src/shared/testing-utils/typeorm-testing-config.ts*/
